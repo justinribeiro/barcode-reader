@@ -1,0 +1,30 @@
+{
+  "name": "@justinribeiro/barcode-reader",
+  "description": "A web component that uses the Shape Detection API and module scripts in DedicatedWorker to detect barcodes.",
+  "author": "Justin Ribeiro <justin@justinribeiro.com>",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:justinribeiro/barcode-reader.git"
+  },
+  "license": "MIT",
+  "version": "0.1.0",
+  "main": "barcode-reader.js",
+  "module": "barcode-reader.js",
+  "dependencies": {
+    "comlink": "^3.2.0",
+    "lit-element": "^2.1.0"
+  },
+  "devDependencies": {
+    "@polymer/iron-demo-helpers": "^3.0.0-pre.19",
+    "@webcomponents/webcomponentsjs": "^2.0.0",
+    "wct-browser-legacy": "^1.0.0"
+  },
+  "keywords": [
+    "polymer",
+    "web components",
+    "lit-html",
+    "lit-element",
+    "barcode",
+    "shape detection api"
+  ]
+}
