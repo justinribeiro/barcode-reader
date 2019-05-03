@@ -4,7 +4,7 @@
 
 > A web component that reads barcodes via the Shape Detection API via a Web Worker.
 
-![screenshot of stl-part-viewer](https://user-images.githubusercontent.com/643503/41803627-a4daf090-763f-11e8-9ef1-a2e11b0a34c6.png)
+![screenshot of barcode-reader](https://user-images.githubusercontent.com/643503/57164618-8765b100-6da9-11e9-9a22-6e6f7fda9c97.png)
 
 ## Features
 
