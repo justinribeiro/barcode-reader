@@ -10,13 +10,18 @@
 
 * Uses Shape Detection API available in Chrome M74 (see https://www.chromestatus.com/feature/4757990523535360).
 * Module scripts on DedicatedWorker. You can try the feature with '--enable-experimental-web-platform-features' flag (see https://crbug.com/680046)
-* Uses Comlink for the proxy of the worker
-* Built as a web component LitElement
+* Uses [Comlink](https://github.com/GoogleChromeLabs/comlink) for the proxy of the worker
+* Built as a web component via [LitElement](https://lit-element.polymer-project.org/)
 
 ## Experimental
+
 Please note, this is **not** production ready. It's not polyfilled, it relies on an experimental platform feature for the Web Worker, and generally I've just been toying with it in various Chrome builds for quite some time.
 
 Use at your own peril! 🐉🔥
+
+## A more complete example
+
+If you're looking for a more complete PWA example of using barcodes on the web, I highly recommend [Paul Kinlans' QR Snapper](https://github.com/PaulKinlan/qrcode) as well as his blog.
 
 ## Install
 
